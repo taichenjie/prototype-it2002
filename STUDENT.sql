@@ -24,7 +24,7 @@ insert into STUDENT (name, current_education, budget, subject, address, grades) 
 insert into STUDENT (name, current_education, budget, subject, address, grades) values ('Aundrea Hairsnape', 'Primary 1', '$35', 'English', '3526 Sundown Circle', 'AL 6');
 insert into STUDENT (name, current_education, budget, subject, address, grades) values ('Giffie Wyrill', 'Primary 2', '$75', 'Tamil', '58 Pine View Hill', 'AL 7');
 insert into STUDENT (name, current_education, budget, subject, address, grades) values ('Halsy Dwelling', 'Primary 5', '$50', 'Tamil', '3 Golf Alley', 'AL 8');
-insert into STUDENT (name, current_education, budget, subject, aAdenaddress, grades) values ('Coleman Tailby', 'Primary 5', '$50', 'Tamil', '2 Linden Pass', 'AL 2');
+insert into STUDENT (name, current_education, budget, subject, address, grades) values ('Coleman Tailby', 'Primary 5', '$50', 'Tamil', '2 Linden Pass', 'AL 2');
 insert into STUDENT (name, current_education, budget, subject, address, grades) values ('Kippy Tomkys', 'Secondary 1', '$20', 'Science', '26 Gale Alley', 'A1');
 insert into STUDENT (name, current_education, budget, subject, address, grades) values ('Gorden Segges', 'Secondary 3', '$75', 'Additional Maths', '91 Canary Pass', 'A2');
 insert into STUDENT (name, current_education, budget, subject, address, grades) values ('Bria Buyers', 'Primary 4', '$45', 'English', '39157 Commercial Junction', 'AL 7');
