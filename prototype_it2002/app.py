@@ -2,6 +2,8 @@
 # ? request - is the default object used in the flask endpoints to get data from the requests
 # ? Response - is the default HTTP Response object, defining the format of the returned data by this api
 from flask import Flask
+from flask_cors import CORS
+CORS(app)
 
 # ? sqlalchemy is the main library we'll use here to interact with PostgresQL DBMS
 # ? Just a class to help while coding by suggesting methods etc. Can be totally removed if wanted, no change
@@ -55,7 +57,7 @@ if __name__ == "__main__":
 # import json
 
 
-CORS(app)
+
 
 
 """
