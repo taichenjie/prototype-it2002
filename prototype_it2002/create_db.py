@@ -79,7 +79,7 @@ with psycopg2.connect(CONN_URL) as conn:
 
         with open('TUTOR.sql', 'r') as f:
             for line in f:
-                data = line.split("'")[1::2]  # получаем данные из строк в кавычках
+                data = line.split("'")[1::2]  # get data from quoted strings
                 print(data)
                 tutor = {
                     'id': str(uuid.uuid4()),
@@ -116,7 +116,7 @@ with psycopg2.connect(CONN_URL) as conn:
 
         with open('STUDENT.sql', 'r') as f:
             for line in f:
-                data = line.split("'")[1::2]  # получаем данные из строк в кавычках
+                data = line.split("'")[1::2]  # get data from quoted strings
                 student = {
                     'id': str(uuid.uuid4()),
                     'name': data[0],
